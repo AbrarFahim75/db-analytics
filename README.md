@@ -1,3 +1,7 @@
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 # DB Analytics
 SQL • Database Design • Data Analytics • Query Optimization
 
@@ -68,6 +72,51 @@ This project serves multiple purposes:
 
 * Demonstrate SQL and database skills
 * Maintain a structured GitHub repository for interviews and job applications
+
+---
+
+## Quick Start
+````bash
+# 1. Install PostgreSQL (v14+)
+# 2. Create a database
+createdb db_analytics
+
+# 3. Load a sample dataset
+psql db_analytics < datasets/shipping.sql
+
+# 4. Start querying
+psql db_analytics
+```​
+```
+
+**Step 4:** Scroll down, write a commit message like `Enhance README with badges, course context, and quick start`, and click **"Commit changes"**.
+
+---
+
+## 2.3 Appropriate License Choice — No Action Needed
+
+The MIT license is correct. No changes required here.
+
+---
+
+## 2.4 Commit History — Enhancement
+
+Your 40 commits are good. One small professional improvement: **add GitHub Topics** to the repository so it appears in relevant searches.
+
+**Step 1:** Go to https://github.com/AbrarFahim75/db-analytics (the main repository page).
+
+**Step 2:** On the right sidebar, find the **"About"** section. Click the **gear icon** next to it.
+
+**Step 3:** In the **"Topics"** field, add the following topics one by one (type each and press Enter):
+````
+sql
+postgresql
+database-design
+normalization
+er-model
+haw-hamburg
+data-analytics
+query-optimization
 
 ---
 
