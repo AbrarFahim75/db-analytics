@@ -17,9 +17,3 @@ dependency analysis and step-by-step decomposition.
 ```
 
 Commit message: `Add normalization directory with definitions and exam relevance`
-
-### Step 2: Create `sql/normalization/invoice_normalization.sql`
-
-Filename:
-```
-sql/normalization/invoice_normalization.sql
