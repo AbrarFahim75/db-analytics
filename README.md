@@ -1,5 +1,4 @@
 # DB Analytics
-
 SQL • Database Design • Data Analytics • Query Optimization
 
 A structured repository for learning and practicing **SQL, database management, and data analytics**.
