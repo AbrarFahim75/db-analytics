@@ -1,25 +1,8 @@
-
----
-
-# 3️⃣ `sql/optimization/README.md`
-
-```markdown
 # Query Optimization
 
-This folder contains SQL examples and notes related to **database performance optimization**.
+This directory will contain examples of:
+- Index creation and usage (`CREATE INDEX`)
+- Query execution plans (`EXPLAIN ANALYZE`)
+- Performance comparison before and after indexing
 
-Query optimization helps improve the **speed and efficiency** of database operations.
-
-## Topics Covered
-
-- Indexing
-- Query execution plans
-- Efficient JOIN strategies
-- Reducing full table scans
-- Optimizing WHERE conditions
-
-## Example
-
-```sql
-CREATE INDEX idx_customer_city
-ON customers(city);
+> Status: In progress
