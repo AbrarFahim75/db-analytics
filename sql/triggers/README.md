@@ -14,4 +14,3 @@ Triggers appear in **25% of past exams** and their frequency is increasing.
 - **FOR EACH ROW:** Fires once per affected row
 - **FOR EACH STATEMENT:** Fires once per SQL statement
 - **NEW / OLD:** References to the new and old row values
-```
