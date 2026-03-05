@@ -91,7 +91,6 @@ CREATE TABLE article_2nf (
 -- ARTICLE(article_id PK, article, price)
 -- INVOICE_ITEM(invoice_number FK, item_number, article_id FK, amount)
 --     PK: (invoice_number, item_number)
-```
 
 
 ---
