@@ -1,7 +1,7 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=database&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![HAW Hamburg](https://img.shields.io/badge/HAW_Hamburg?style=flat)
+![HAW Hamburg](https://img.shields.io/badge/HAW_Hamburg-Databases-teal?style=flat)
 
 
 # DB Analytics
