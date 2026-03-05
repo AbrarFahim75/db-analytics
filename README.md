@@ -2,8 +2,7 @@
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=database&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![HAW Hamburg](https://img.shields.io/badge/HAW_Hamburg-IE4_Databases-teal?style=flat)
-![Status](https://img.shields.io/badge/Status-Active_Development-brightgreen?style=flat)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)
+
 
 # DB Analytics
 SQL • Database Design • Data Analytics • Query Optimization
