@@ -1,9 +1,8 @@
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-Query-blue?style=for-the-badge&logo=postgresql&logoColor=white)
-![Database Design](https://img.shields.io/badge/Database-Design-orange?style=for-the-badge)
-![MIT License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
-![HAW Hamburg](https://img.shields.io/badge/HAW-Hamburg-green?style=for-the-badge)
-
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat&logo=postgresql&logoColor=white)
+![Database](https://img.shields.io/badge/Database-555555?style=flat&logo=databricks&logoColor=white)
+![MIT](https://img.shields.io/badge/MIT-F7DF1E?style=flat)
+![HAW Hamburg](https://img.shields.io/badge/HAW-Hamburg-6BBE44?style=flat)
 
 # DB Analytics
 SQL • Database Design • Data Analytics • Query Optimization
