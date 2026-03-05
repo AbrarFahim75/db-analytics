@@ -4,19 +4,13 @@ This folder contains SQL examples using window functions for advanced data analy
 
 Window functions perform calculations across a set of table rows related to the current row.
 
-## Topics Covered
+> **Note:** Window functions are not part of the HAW Hamburg IE4 Databases 
+> curriculum. They are included here as an industry extension, since they 
+> are essential for data analytics roles.
 
-- ROW_NUMBER()
-- RANK()
-- DENSE_RANK()
-- COUNT() OVER()
-- PARTITION BY
+This directory will contain examples of:
+- `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`
+- `LAG()`, `LEAD()`
+- `SUM() OVER`, `AVG() OVER` with `PARTITION BY`
 
-## Example
-
-```sql
-SELECT
-  name,
-  city,
-  COUNT(*) OVER (PARTITION BY city)
-FROM customers;
+> Status: In progress
