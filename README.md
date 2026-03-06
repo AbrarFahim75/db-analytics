@@ -14,6 +14,21 @@ The goal of this project is to build a **strong foundation in relational databas
 
 ---
 
+## Quick Start
+```bash
+# 1. Install PostgreSQL (v14+)
+
+# 2. Create a database
+createdb db_analytics
+
+# 3. Load a sample dataset
+psql db_analytics < datasets/shipping.sql
+
+# 4. Start querying
+psql db_analytics
+
+---
+
 ## Repository Structure
 ```
 db-analytics/
@@ -69,16 +84,20 @@ db-analytics/
 
 This repository includes practice and examples for:
 
-* SQL Fundamentals
-* Data Definition Language (DDL)
-* Data Manipulation Language (DML)
-* Data Retrieval and Filtering
-* JOIN operations
-* Aggregations and GROUP BY
-* Subqueries
-* Window Functions
-* Query Optimization
-* Database Schema Design
+- SQL Fundamentals
+- Data Definition Language (DDL)
+- Data Manipulation Language (DML)
+- Data Retrieval and Filtering
+- JOIN operations (INNER, LEFT, RIGHT, FULL, CROSS)
+- Aggregations and GROUP BY
+- Subqueries (IN, EXISTS, correlated)
+- Views and updatability
+- Triggers (BEFORE, AFTER, INSTEAD OF)
+- Transactions and ACID properties
+- Normalization (1NF → 2NF → 3NF → BCNF)
+- ER Modeling (Chen and MC notation)
+- Window Functions (industry extension)
+- Query Optimization and Indexing
 
 ---
 
@@ -88,65 +107,20 @@ This project serves multiple purposes:
 
 **Academic Learning**
 
-* Support coursework related to databases and SQL
-* Organize exercises and notes in a structured format
+- Support coursework related to databases and SQL
+- Organize exercises and notes in a structured format
+- Practice for examinations with worked examples
 
 **Professional Skill Development**
 
-* Practice SQL queries used in real-world analytics
-* Understand relational database design
-* Learn query optimization and performance techniques
+- Practice SQL queries used in real-world analytics
+- Understand relational database design
+- Learn query optimization and performance techniques
 
 **Portfolio Development**
 
-* Demonstrate SQL and database skills
-* Maintain a structured GitHub repository for interviews and job applications
-
----
-
-## Quick Start
-````bash
-# 1. Install PostgreSQL (v14+)
-# 2. Create a database
-createdb db_analytics
-
-# 3. Load a sample dataset
-psql db_analytics < datasets/shipping.sql
-
-# 4. Start querying
-psql db_analytics
-```​
-```
-
-**Step 4:** Scroll down, write a commit message like `Enhance README with badges, course context, and quick start`, and click **"Commit changes"**.
-
----
-
-## 2.3 Appropriate License Choice — No Action Needed
-
-The MIT license is correct. No changes required here.
-
----
-
-## 2.4 Commit History — Enhancement
-
-Your 40 commits are good. One small professional improvement: **add GitHub Topics** to the repository so it appears in relevant searches.
-
-**Step 1:** Go to https://github.com/AbrarFahim75/db-analytics (the main repository page).
-
-**Step 2:** On the right sidebar, find the **"About"** section. Click the **gear icon** next to it.
-
-**Step 3:** In the **"Topics"** field, add the following topics one by one (type each and press Enter):
-````
-sql
-postgresql
-database-design
-normalization
-er-model
-haw-hamburg
-data-analytics
-query-optimization
-
+- Demonstrate SQL and database skills
+- Maintain a structured GitHub repository for interviews and job applications
 ---
 
 ## Technologies and Tools
@@ -159,5 +133,5 @@ query-optimization
 
 ## Author
 
-Abrar Fahim
+Md Abrar Fahim
 B.Sc. Information Engineering — HAW Hamburg
