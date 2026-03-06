@@ -14,23 +14,50 @@ The goal of this project is to build a **strong foundation in relational databas
 
 ---
 
-## Repository Structure
-
+## Suggested Revised Repository Structure
 ```
-db-analytics
+db-analytics/
 │
-├── datasets/            # Sample datasets used for SQL practice and analytics
-├── docs/                # Notes on database concepts and SQL theory
-├── schemas/             # Database schemas and ER diagram definitions
+├── datasets/
+│   ├── shipping.sql              # Lab 1 shipping database
+│   ├── chemistry.sql             # Lab 4 chemistry database
+│   ├── geography.sql             # Lab 4 geography database
+│   └── company.sql               # Elmasri COMPANY example
+│
+├── docs/
+│   ├── er-modeling.md            # Chen vs. MC notation guide
+│   ├── normalization.md          # 1NF → 2NF → 3NF → BCNF
+│   ├── acid-transactions.md      # ACID properties explained
+│   ├── sql-cheatsheet.md         # Quick reference
+│   └── exam-topics.md            # Exam frequency analysis
+│
+├── schemas/
+│   ├── shipping-erd.mermaid      # ER diagram (Mermaid syntax)
+│   ├── chemistry-erd.mermaid
+│   ├── geography-erd.mermaid
+│   └── relational-models/        # Relational schema definitions
 │
 ├── sql/
-│   ├── ddl/             # Data Definition Language (CREATE, ALTER, DROP)
-│   ├── dml/             # Data Manipulation Language (INSERT, UPDATE, DELETE)
-│   ├── queries/         # Core SQL queries and filtering examples
-│   ├── joins/           # JOIN operations between tables
-│   ├── subqueries/      # Nested SQL queries
-│   ├── window-functions/# Analytical SQL window functions
-│   └── optimization/    # Query optimization and indexing strategies
+│   ├── ddl/                      # CREATE TABLE, ALTER, DROP
+│   ├── dml/                      # INSERT, UPDATE, DELETE
+│   ├── queries/                  # SELECT, WHERE, ORDER BY
+│   ├── joins/                    # INNER, LEFT, RIGHT, FULL, CROSS
+│   ├── aggregation/              # GROUP BY, HAVING, COUNT, SUM, AVG
+│   ├── subqueries/               # IN, EXISTS, correlated subqueries
+│   ├── views/                    # CREATE VIEW, updatable views
+│   ├── triggers/                 # BEFORE, AFTER, INSTEAD OF
+│   ├── transactions/             # BEGIN, COMMIT, ROLLBACK, SAVEPOINT
+│   ├── normalization/            # Before/after decomposition examples
+│   ├── window-functions/         # (Industry extension, beyond course)
+│   └── optimization/             # Indexing, EXPLAIN ANALYSE
+│
+├── labs/
+│   ├── lab1/                     # DDL, DML, SQL queries
+│   ├── lab2/                     # ER diagrams, relational models
+│   ├── lab3/                     # Normalization, relational algebra
+│   └── lab4/                     # Transactions, views, triggers
+│
+├── projects/                     # Larger integrated projects
 │
 ├── LICENSE
 └── README.md
