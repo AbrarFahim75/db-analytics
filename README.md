@@ -14,7 +14,7 @@ The goal of this project is to build a **strong foundation in relational databas
 
 ---
 
-## Suggested Revised Repository Structure
+## Repository Structure
 ```
 db-analytics/
 │
