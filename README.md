@@ -26,6 +26,7 @@ psql db_analytics < datasets/shipping.sql
 
 # 4. Start querying
 psql db_analytics
+```
 
 ---
 
