@@ -23,12 +23,5 @@ The shipping database script is located at [`datasets/shipping.sql`](../../datas
 - INNER JOIN and LEFT JOIN
 - GROUP BY with COUNT, SUM
 - Query interpretation (reading SQL and explaining in natural language)
-```
 
-Commit message: `Add Lab 1 README with assignment overview`
-
-### Step 2: Create `labs/lab2/README.md`
-
-Same process. Click **"Add file"** → **"Create new file"**. Filename:
-```
-labs/lab2/README.md
+---- END ----
