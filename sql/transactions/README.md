@@ -5,7 +5,6 @@ Transactions and ACID properties appear in **63% of past exams**.
 ## Contents
 
 - `chemistry_transaction.sql` — Multi-table insert with ROLLBACK on error
-- `savepoint_example.sql` — Using SAVEPOINT for partial rollback
 
 ## ACID Properties
 
