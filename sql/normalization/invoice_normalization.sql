@@ -4,7 +4,7 @@
 -- Author:  Abrar Fahim
 -- Description: Step-by-step normalization of Invoice Data
 --              from universal relation to 3NF.
---              Based on SuSe 2020 exam pattern.
+--              Based on the SuSe 2020 exam pattern.
 -- ============================================================
 
 -- ============================================================
@@ -91,6 +91,3 @@ CREATE TABLE article_2nf (
 -- ARTICLE(article_id PK, article, price)
 -- INVOICE_ITEM(invoice_number FK, item_number, article_id FK, amount)
 --     PK: (invoice_number, item_number)
-
-
----
