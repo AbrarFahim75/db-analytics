@@ -1,3 +1,5 @@
+---- START ----
+
 -- ============================================================
 -- File:    changelog_trigger.sql
 -- Schema:  lab4_1 (Chemistry Database)
@@ -40,4 +42,3 @@ EXECUTE FUNCTION log_element_changes();
 -- ============================================================
 -- INSERT INTO Elements VALUES (11, 'K', 'Potassium', 19, 39.098);
 -- SELECT * FROM ChangeLog ORDER BY LogID DESC LIMIT 1;
-```
