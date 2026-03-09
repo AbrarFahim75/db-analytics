@@ -16,12 +16,5 @@
 - Functional dependency identification
 - Normalization: 1NF → 2NF → 3NF decomposition
 - Relational algebra operators (σ, π, ⋈, ∪, ∩, −)
-```
 
-Commit message: `Add Lab 3 README with normalization assignments`
-
-### Step 4: Create `labs/lab4/README.md`
-
-Filename:
-```
-labs/lab4/README.md
+---- END ----
