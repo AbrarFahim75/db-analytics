@@ -1,6 +1,7 @@
 # Geography Database — ER Diagram
 
 ## Entity-Relationship Diagram (Mermaid)
+
 ```mermaid
 erDiagram
     COUNTRIES {
