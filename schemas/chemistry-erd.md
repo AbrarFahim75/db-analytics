@@ -1,6 +1,7 @@
 # Chemistry Database — ER Diagram
 
 ## Entity-Relationship Diagram (Mermaid)
+
 ```mermaid
 erDiagram
     ELEMENTS {
