@@ -16,12 +16,5 @@
 - Identifying entity types, relationship types, attributes, keys
 - Composite, multivalued, and derived attributes
 - Partial vs. total participation
-```
 
-Commit message: `Add Lab 2 README with ER modeling assignments`
-
-### Step 3: Create `labs/lab3/README.md`
-
-Filename:
-```
-labs/lab3/README.md
+---- END ----
