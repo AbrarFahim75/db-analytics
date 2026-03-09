@@ -14,6 +14,3 @@ dependency analysis and step-by-step decomposition.
 - **2NF:** In 1NF + no partial dependencies (every non-key attribute depends on the full PK)
 - **3NF:** In 2NF + no transitive dependencies (no non-key attribute depends on another non-key)
 - **BCNF:** For every non-trivial FD X → Y, X is a superkey
-```
-
-Commit message: `Add normalization directory with definitions and exam relevance`
