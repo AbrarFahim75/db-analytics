@@ -1,6 +1,7 @@
 # Shipping Company — ER Diagram
 
 ## Entity-Relationship Diagram (Mermaid)
+
 ```mermaid
 erDiagram
     HARBOUR {
@@ -40,3 +41,5 @@ erDiagram
 - **SAILOR** (<u>sailorID</u>, lastName, dob, *trainedAt* → HARBOUR)
 - **SHIP** (<u>shipID</u>, name, grossWeight, launchDate, *baseHarbour* → HARBOUR)
 - **HIRE** (<u>*sailorID* → SAILOR, *shipID* → SHIP</u>, startOfService, annualSalary)
+
+----
