@@ -1,3 +1,5 @@
+---- START ----
+
 -- ============================================================
 -- File:    chemistry_transaction.sql
 -- Schema:  lab4_1 (Chemistry Database)
