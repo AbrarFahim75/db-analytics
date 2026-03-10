@@ -4,6 +4,10 @@
 ![MIT](https://img.shields.io/badge/MIT-F7DF1E?style=flat)
 ![HAW Hamburg](https://img.shields.io/badge/HAW-Hamburg-6BBE44?style=flat)
 
+<p align="center">
+  <img src="assets/banner.png" alt="DB Analytics Banner" width="100%">
+</p>
+
 # DB Analytics
 SQL • Database Design • Data Analytics • Query Optimization
 
