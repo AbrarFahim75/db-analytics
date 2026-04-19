@@ -8,7 +8,7 @@
   <img src="assets/banner.png" alt="DB Analytics Banner" width="100%">
 </p>
 
-# DB Analytics
+# Database Analytics Systems
 SQL • Database Design • Data Analytics • Query Optimization
 
 A structured repository for learning and practicing **SQL, database management, and data analytics**.
